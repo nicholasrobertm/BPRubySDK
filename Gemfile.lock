@@ -1,0 +1,36 @@
+PATH
+  remote: .
+  specs:
+    BPRubySDK (0.0.7)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    json (1.8.3)
+    rake (12.0.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  BPRubySDK!
+  json (~> 1.8, >= 1.8.3)
+  rake (~> 12.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   1.14.4
